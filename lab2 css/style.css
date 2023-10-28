@@ -1,0 +1,62 @@
+.main-heading{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    color: rgb(200, 184, 66);
+}
+body{
+    background-color: rgb(29, 13, 155);
+    
+}
+.navvv {
+    background-image: url('https://twocircles.com/app/uploads/sites/2/2018/05/ICC2018-500x500.png');
+    background-size: 50px 50px ;
+    background-color: #fff;
+    background-repeat: no-repeat    ;
+    border-radius: 0.3cm;
+}
+
+.tabless{
+    display: flex;
+ justify-content: center;
+ justify-items: center;
+ text-align: center;
+ margin:auto;
+ 
+}
+
+.tabless th {
+    text-align: center;
+    
+}
+.rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+  .container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+table {
+	width: 800px;
+	border-collapse: collapse;
+	overflow: hidden;
+	box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+th,
+td {
+	padding: 15px;
+	background-color: rgba(255,255,255,0.2);
+	color: #fff;
+}
+
+th {
+	text-align: left;
+}
+

@@ -1,0 +1,124 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation bar */
+nav {
+    background-color: #f44336;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav a {
+    color: #c3ccc6;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Hero section */
+.hero {
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.hero a {
+    background-color: #c3ccc6;
+    border: none;
+    color: #95a6b4;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+/* Features section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature {
+    width: 33%;
+    text-align: center;
+    margin: 20px;
+}
+
+.feature i {
+    font-size: 48px;
+    color: #f3b5b1;
+    margin: 20px 0;
+}
+
+.feature h3 {
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.feature p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Footer section */
+footer {
+    background-color: #f44336;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 48
+}
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }

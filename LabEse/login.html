@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="login.css">
+  <script src="app.js"></script>
+</head>
+<body>
+  <h2>Registration Form</h2>
+  <form id="registrationForm" onsubmit="submitForm(event)">
+    <div> 
+      <label for="registrationNumber">Student Registration Number:</label>
+      <input type="text" id="registrationNumber" name="registrationNumber" required pattern="\d{9}">
+    </div>
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+    </div>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <div style="display: flex; text-align: center; padding-right: 80%;margin-right: 10%;">
+      <input type="checkbox" onclick="myFunction()">Show Password
+    </div>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required pattern="[a-z]+_b+[0-9]+@[a-z]+\.(vjti\.ac\.in)">
+    </div>
+    <input type="submit" value="Submit">
+        <a href="index.html">Login </a>    
+</form>
+ 
+  <div id="message">
+    <h3>Password must contain the following:</h3>
+    <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+    <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+    <p id="number" class="invalid">A <b>number</b></p>
+    <p id="length" class="invalid">Minimum <b>8 characters</b></p>
+  </div>
+  
+</body>
+</html>

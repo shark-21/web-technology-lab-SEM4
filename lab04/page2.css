@@ -1,0 +1,117 @@
+body{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+.t1
+{
+    background-color: gray;
+    flood-opacity: 50%;
+    border-radius: 24px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    height: 3rem;
+    justify-content: center;
+    text-align: center;
+    color: azure;
+}
+
+.tooltip {
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 55px;
+    margin-left: 30px;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+    border: solid;
+    border-color: aqua ; 
+    border-radius: 3px;
+
+  }
+  /* .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+   */
+  @media only screen and (max-width: 700px){
+    .polaroid {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px){
+    .polaroid {
+      width: 100%;
+    }
+  }
+  .polaroid {
+    width: 300px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #fff;
+    margin: 20px auto;
+    color: black;
+  }
+  
+  .polaroid img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .polaroid .caption {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .page-link {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: #ecc4c4;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .page-link:hover {
+    background-color: #f2f2f2;
+    
+  }
+  
+  .page-link.active {
+    background-color: #b89494;
+    color: #fff;
+  }
+  

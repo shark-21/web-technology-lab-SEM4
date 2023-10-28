@@ -1,0 +1,75 @@
+
+.header{
+   text-align: center;
+   
+    
+}
+
+
+body{
+    background-image: url(https://d33wubrfki0l68.cloudfront.net/5c71bc45356f2b550ac87b19eb115007e5b0953b/78d8d/static/waves_violet-37d9022b34fe32b9a566104ee1b0b8e9.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+
+
+}
+.biglist{
+     /* display: flex; */
+     position: absolute;
+     display: flex;
+}
+embed.biglist{
+   width: 20%;
+   height: 30%;
+}
+.contents {
+   
+    
+    width: 65%;
+        height: 30%;
+   
+    /* padding-right: 55%; */
+}
+.top-fix{
+ position:relative;
+text-align: center;
+display: flex;
+background-color:  rgb(34, 7, 131);
+color: rgb(58, 199, 58);
+justify-content: center;
+padding-bottom: 1rem;
+border: rgb(13, 12, 13) 2px;
+
+}
+ol{
+   background-color: rgb(95, 217, 199);
+    text-align: left;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+    align-items: flex-end;
+}
+li {
+    background: white;
+    border-radius: 0 0.5rem 0.5rem 0.5rem;
+    align-items: flex-end;
+      text-size-adjust: auto;
+     
+      color: black;
+      
+      font: 900 1.5em/1 'Montserrat';
+      justify-content: flex-end;
+      padding: 0.125em 0.25em;
+      z-index: 1;
+    }
+    .list{
+        font-size: 0.7rem;
+    }
+    .illustration{
+        width: 50%;
+        height: 30%;
+        padding-left: 12%;
+    }
+    a{
+        text-decoration: none;
+      
+    }

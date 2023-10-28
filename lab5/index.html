@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+   <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expt5</title>
+    <style>
+      .bt {
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-image: linear-gradient(11deg, #eead33, #b326b3,rgb(71, 177, 71));
+    padding: 0.7em 2em;
+    border-radius: 65px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    color: white;
+  } 
+  .bt1 {
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-image: linear-gradient(11deg, #28a15b, #46a9e3,rgb(117, 71, 177));
+    padding: 0.7em 2em;
+    border-radius: 65px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.438);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    color: white;
+  } 
+  .bt2 {
+    border: 5em;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+    -webkit-transform: translate(0);
+    transform: translate(0);
+    background-image: linear-gradient(11deg, #e31010, #b33226,rgb(71, 177, 165));
+    padding: 0.7em 2em;
+    border-radius: 65px;
+    box-shadow: 1px 1px 10px rgba(233, 14, 14, 0.911);
+    -webkit-transition: box-shadow 0.25s;
+    transition: box-shadow 0.25s;
+    color: white;
+  } 
+  nav{
+    background-color: #06161f;
+    margin-top: -20px;
+    padding-top: 10px;
+    padding-left: 13px;
+    margin-left: -10px;
+    padding-bottom: 0.45vw;
+  }
+    </style>
+</head>
+<body style="background-color: rgb(255, 255, 255);">
+  <nav>
+    <h1 style="color: rgb(55, 194, 110);">Shardul Khade <section style="text-align: right;margin-top: -20px;margin-right: 50px;">Lab 6 JS II </section> </h1>
+  
+  </nav>
+  <div class="regid" style="background-color: #ffe6b3; margin-left: -10px;padding-left: 8px;display: flex;margin-bottom: -15px;padding-bottom: 15px;">
+    <h3 >211070078 </h3>
+    <h3 style="padding-left: 3vw;">   Batch-C</h3>
+  </div>
+    <button class="bt" onclick="getAlert()">getAlert</button>
+    <button class="bt" onclick="dates()">Get Date</button>
+    <button class="bt" id="arrow" onclick="arrow()">Execute Arrow Function</button>
+    
+    <div class="divt">
+      <p id="dt"> </p>
+    </div>
+    <div class="container">
+    <ul class="y1" id="y1">
+      <li >item 1</li>
+      <li class="l1">item 2</li>
+      <li>item 3</li>
+      <li>item 4</li>
+      <li> <a href="#" class="link0"> LINK </a></li>
+    </ul>
+    </div>
+    <div class="maindiv" style="display: flex;">
+    <div id="d1" style="border:2px solid rgb(101, 101, 248); border-radius: 0.4cm;">
+      <h2 style="text-align: center;">Math </h2>
+      <p id="pi">PI : </p>
+      <p  id="round">Math.round(8.8) :  </p>
+      <p  id="ceil">Math.ceil(7.1) :  </p>
+      <p  id="arthmc"></p>
+      <p style="padding-top: 54x;">
+       <p id="ran" style="color: darkslateblue;">Random function:  </p>
+      <div class="sort">
+        <p>loop</p>
+        <p id="s"></p>
+        <p id="s1"></p>
+      </div>
+    </div>
+    <div id="setdiv" style="padding-left: 1vw;">
+      <h2 style="text-align: center;">Sets</h2>
+      <p >Elements : a a b b c d </p>
+      <p id="set">Inside set:  </p>
+
+      <div class="mp">
+        <h2 style="text-align: center;">Maps</h2>
+        <p > car prices </p>
+        <p id="mpp">  </p>
+      </div>
+    </div>
+
+  </div>
+  <script src="./app.js">
+    document.querySelectorAll('.bt').forEach((item)=>{
+        item.addEventListener('click',()=>{
+            alert('gotcha')
+        })
+    }) 
+   
+  </script>  
+</body>
+</html>

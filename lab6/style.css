@@ -1,0 +1,34 @@
+
+
+
+   /* Styles for the navbar */
+   nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+
+  /* Styles for the logo */
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+  }
+
+  /* Styles for the links */
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+
+  /* Styles for the active link */
+  nav a.active {
+    text-decoration: underline;
+  }
+  .jshead{
+    text-align: center;
+  }

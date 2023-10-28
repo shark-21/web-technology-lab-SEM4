@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"name": "web technology",
+			"path": ".."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "web technology"
+	}
+}

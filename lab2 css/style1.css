@@ -1,0 +1,77 @@
+body {
+background-color: rgb(129, 221, 184);
+
+}
+
+.headd{
+    background-color: darkblue;
+    color: aqua;
+    height: 130px;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.newdiv{
+    background-color: rgb(45, 19, 209);
+    opacity: 0.5;
+    color: rgb(209, 49, 49);
+}
+.bckimg{
+    background-image: url(./pinkbckimg.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+    background-size:  cover;
+    outline-style: dotted;
+}
+.fixpic{
+    background-image: url('https://seeklogo.com/images/V/vjti-college-logo-707F46CDA8-seeklogo.com.png');
+    background-position:  right top;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding-bottom: 10rem;
+  padding-right: 50%;
+  border:  3.2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+.dots {
+    border-style: dotted;
+    border-width: 2px;
+    border-color: rgb(255, 115, 0) rgb(132, 123, 224) rgb(255, 0, 174) yellow; 
+
+}
+.solid {
+    border-style: solid;
+    border-width: thick;
+    border-color: blue;
+}
+.dashed {
+    border-style: dashed;
+    border-width: medium;
+    border-color: rgb(224, 52, 49);
+}
+.outs{
+    border-style: outset;
+    border-width: 5px;
+    border-color: rgb(216, 245, 74);
+}
+.allbord{
+    border-style: dotted ridge  dashed inset      ;   
+    border-color: red green blue yellow; 
+}
+#shortbord{
+    border:  4.5px dashed rgb(12, 89, 156);
+}
+#bordradius{
+    border:  3.2px solid rgb(242, 231, 72);
+    border-radius: 5px;
+}
+.mar{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 120px;
+    margin-left: 191px;
+}
+h1 {
+    margin: 0 10px 50px 0;
+  }
